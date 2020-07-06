@@ -1,0 +1,90 @@
+/*Phone Only*/
+@media (max-width: 599px){
+
+}
+/*tablet portrait up*/
+@media (min-width: 600px){
+    
+}
+/*table lanscape up*/
+@media (max-width: 900px){
+    
+}
+/*Desktop up*/
+@media (min-width: 1200px){
+    
+}
+/*Big Desktop up*/
+@media (min-width: 1800px){
+    
+}
+
+
+.header__hero {
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    position: absolute;
+    color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.header__hero__img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    opacity: 0.5;
+
+}
+
+.header__internal{
+    background-color: #5F9EA0;
+    width: 100%;
+    height: 14vh;
+    color: white;
+    text-align: center;
+    
+}
+
+
+
+.header__nav {
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.header__nav__internal{
+    margin-top: 3px;
+}
+
+.header__nav__a__link{
+    margin-right: 55vw;
+}
+
+
+#footer {
+    background-color: #5F9EA0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 14vh;
+    color: white;
+    text-align: center;
+
+}
+
+.footer__container__icon {
+
+    font-size: 2rem;
+    color: #ffffff;
+    margin: 1rem;
+    padding-top: 1rem;
+}
+
+.footer__container__cr {
+    color: #000000;
+}

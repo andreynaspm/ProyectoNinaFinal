@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
+
+    <!--normalize-->
+    <link rel="stylesheet" href="/ProyectoNinaFinal/css/normalize.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!--Fontawesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+    <script src="https://kit.fontawesome.com/5c64b13f76.js" crossorigin="anonymous"></script>
+
+    <!--Fuentes-->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Rajdhani:wght@700&display=swap"
+        rel="stylesheet">
+
+    <!--Estilos propios-->
+    <link rel="stylesheet" href="/ProyectoNinaFinal/css/main.css">
+
+    <title>Hello, world!</title>
+</head>
+
+<body>
+    <header class="header__internal">
+        <!--NAV BAR-->
+        <nav class="header__nav header__nav__internal navbar navbar-expand-lg navbar-dark bg-transparent">
+            <a class="header__nav__a__link  " href="/ProyectoNinaFinal/index.html">
+                <img class="header__nav_a__img"
+                    src="https://imgbox.es/images/2020/06/28/Rimaya-logoc6f8f34f97989fee.png"
+                    alt="Rimaya-logoc6f8f34f97989fee.png" width="300 " height="100  " class="d-inline-block align-top "
+                    alt="" loading="lazy">
+                <!--BRAND IMG-->
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class=" collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class=" header__nav__menu navbar-nav ml-auto ">
+                    <li class="header__nav__menu__lista nav-item nav-item__internal active ">
+                        <a class="header__nav__menu__lista__a nav-link "
+                            href="/ProyectoNinaFinal/views/conocenos.html">Conocenos
+                            </a>
+                    </li>
+                    <li class="header__nav__menu__lista header__nav__menu__lista__submenu nav-item nav-item__internal dropdown active">
+                        <a class="header__nav__menu__lista__a nav-link dropdown-toggle" href="#" id="navbarDropdown"
+                            role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Servicios
+                        </a>
+                        <div class="header__nav__menu__lista__submenu__a dropdown-menu"
+                            aria-labelledby="navbarDropdown">
+                            <a class="header__nav__menu__lista__submenu__a nav-item__internal dropdown-item" href="/ProyectoNinaFinal/views/servicios.html">Diseño Web</a>
+                            <a class="header__nav__menu__lista__submenu__a nav-item__internal dropdown-item" href="/ProyectoNinaFinal/views/servicios.html">Fotografia de
+                                producto</a>
+                            <a class="header__nav__menu__lista__submenu__a nav-item__internal dropdown-item" href="/ProyectoNinaFinal/views/servicios.html">Publicidad Online</a>
+
+                    </li>
+                    <li class="header__nav__menu__lista nav-item nav-item__internal active">
+                        <a class="header__nav__menu__lista__a nav-link"
+                            href="/ProyectoNinaFinal/views/dudas.html">Dudas</a>
+                    </li>
+                    <li class="header__nav__menu__lista nav-item nav-item__internal active">
+                        <a class="header__nav__menu__lista__a nav-link"
+                            href="/ProyectoNinaFinal/views/contacto.html">Contacto</a>
+                    </li>
+                    <li class="header__nav__menu__lista nav-item active">
+                        <a href="#myModal" class="header__nav__menu__lista__a nav-link trigger-btn"
+                            data-toggle="modal">Ingresar</a>
+                        <!-- Modal Login -->
+                        <div id="myModal" class="modal fade">
+                            <div class="modal-dialog modal-login">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h4 class="modal-title"></h4>
+                                        <button type="button" class="close" data-dismiss="modal"
+                                            aria-hidden="true">&times;</button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form action="/examples/actions/confirmation.php" method="post">
+                                            <div class="form-group">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                                                    <input type="text" class="form-control" name="username"
+                                                        placeholder="usuario" required="required">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                                                    <input type="text" class="form-control" name="password"
+                                                        placeholder="clave" required="required">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <button type="submit"
+                                                    class="btn btn-primary btn-block btn-lg button">Registrate</button>
+                                            </div>
+                                            <p class="hint-text"><a href="#">¿Olvidaste tu clave?</a></p>
+                                        </form>
+                                    </div>
+                                    <div class="modal-footer">¿No tienes cuenta todavia? <a href="#">Crear Cuenta</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!--END NAV BAR-->
+    </header>
+
+
+    <footer id="footer">
+
+        <div class="footer__container">
+
+            <a class="footer__container__icon fab fa-facebook-f" href="https://www.facebook.com/"></a>
+            <a class="footer__container__icon fab fa-instagram" href="https://www.instgram.com/"></a>
+            <a class="footer__container__icon fab fa-behance" href="https://www.behance.net/"></a>
+            <a class="footer__container__icon fab far fa-envelope" href="https://www.gmail.com"></a>
+            <a class="footer__container__icon fab fa-whatsapp" href="https://www.whatsapp.com"></a>
+        </div>
+        <p class="footer__container__cr">© Copyright 2020 Rimaya</p>
+
+
+    </footer>
+    <!-- Optional JavaScript -->
+    <script src="/ProyectoNinaFinal/js/index.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
