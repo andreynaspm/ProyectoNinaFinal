@@ -24,7 +24,7 @@
     <!--Estilos propios-->
     <link rel="stylesheet" href="/ProyectoNinaFinal/css/main.css">
 
-    <title>Rimaya</title>
+    <title>About Rimaya</title>
 </head>
 
 <body>
@@ -67,14 +67,14 @@
                                 href="/ProyectoNinaFinal/views/servicios.html">Publicidad Online</a>
 
                     </li>
-                    <li class="header__nav__menu__lista nav-item nav-item__internal active">
-                        <a class="header__nav__menu__lista__a nav-link"
-                            href="/ProyectoNinaFinal/views/dudas.html">Dudas</a>
-                    </li>
-                    <li class="header__nav__menu__lista nav-item nav-item__internal active">
-                        <a class="header__nav__menu__lista__a nav-link"
-                            href="/ProyectoNinaFinal/views/contacto.html">Contacto</a>
-                    </li>
+                    <!--
+          <li class="nav-item nav-item__main active">
+            <a class="nav-link" href="/ProyectoNinaFinal/views/dudas.html">Dudas</a>
+          </li>
+          <li class="nav-item nav-item__main active">
+            <a class="nav-link" href="/ProyectoNinaFinal/views/contacto.html">Contacto</a>
+          </li>
+          -->
                     <li class="header__nav__menu__lista nav-item nav-item__internal active">
                         <a href="#myModal" class="header__nav__menu__lista__a nav-link trigger-btn"
                             data-toggle="modal">Ingresar</a>
@@ -105,12 +105,13 @@
                                             </div>
                                             <div class="form-group">
                                                 <button type="submit"
-                                                    class="btn btn-primary btn-block btn-lg button">Registrate</button>
+                                                    class="btn  btn-block btn-lg button btn-custom">Registrate</button>
                                             </div>
                                             <p class="hint-text"><a href="#">¿Olvidaste tu clave?</a></p>
                                         </form>
                                     </div>
-                                    <div class="modal-footer">¿No tienes cuenta todavia? <a href="#">Crear Cuenta</a>
+                                    <div class="modal-footer justify-content-center">¿No tienes cuenta todavia? <a
+                                            href="#">Crear Cuenta</a>
                                     </div>
                                 </div>
                             </div>
@@ -123,20 +124,39 @@
         <!--END NAV BAR-->
 
     </header>
-    <div class="container-fluid video-container">
-        <div class="video__conocenos">
-            <video src="/ProyectoNinaFinal/img/v2.mp4" width=600vw height=500vh autoplay loop poster="/ProyectoNinaFinal/img/vistaprevia.jpg"></video>
-        </div>
-    </div>
-    <div class="div__container__conocenos">
-        <div class="container-fluid" >
-            <p class="texto__principal__conocenos">I love cheese, especially cheese strings chalk and cheese. Blue castello fondue airedale paneer cheesy feet caerphilly smelly cheese danish fontina. Mozzarella st. agur blue cheese cream cheese stinking bishop fromage frais pecorino babybel mascarpone. Cheesy feet paneer dolcelatte pecorino stilton.
-                <br>
-                <br>
+    <!--FIN HEADER-->
 
-                Danish fontina taleggio bocconcini. Chalk and cheese say cheese cheese on toast cheesecake paneer cow when the cheese comes out everybody's happy say cheese. Mascarpone pecorino blue castello cheese on toast red leicester parmesan melted cheese paneer. Who moved my cheese.</p>
-            </div>
-        </div>  
+    <!--
+    <div class="container-fluid video-container">
+        
+    </div>  
+
+    <div class="container video__conocenos">
+        
+    </div>
+
+    -->
+    <video class="container video__conocenos" src="/ProyectoNinaFinal/img/v2.mp4" width=600vw height=500vh autoplay loop
+        poster="/ProyectoNinaFinal/img/vistaprevia.jpg"></video>
+
+    <div>
+        <p class=" div__container__conocenos texto__principal__conocenos">I love cheese, especially cheese strings chalk
+            and cheese. Blue castello
+            fondue airedale paneer cheesy feet caerphilly smelly cheese danish fontina. Mozzarella st. agur blue cheese
+            cream cheese stinking bishop fromage frais pecorino babybel mascarpone. Cheesy feet paneer dolcelatte
+            pecorino stilton.
+            <br>
+            <br>
+
+            Danish fontina taleggio bocconcini. Chalk and cheese say cheese cheese on toast cheesecake paneer cow when
+            the cheese comes out everybody's happy say cheese. Mascarpone pecorino blue castello cheese on toast red
+            leicester parmesan melted cheese paneer. Who moved my cheese.</p>
+    </div>
+
+    <a class="float" href="https://web.whatsapp.com/" target="blank">
+        <i class="fab fa-whatsapp my-float"></i>
+    </a>
+
 
     <footer id="footer">
 
