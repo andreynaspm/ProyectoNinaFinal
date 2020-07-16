@@ -2,6 +2,6 @@
 
 
 Desafío
-Aplicando SASS - Operaciones
+Crear repositorio en GitHub
 
-se aplicaron operaciones con el width en el sass
+https://andreynaspm.github.io/ProyectoNinaFinal/
